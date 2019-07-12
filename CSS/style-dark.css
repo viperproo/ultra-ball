@@ -1,0 +1,81 @@
+::selection {
+  background-color: rgba(80, 80, 80, .7);
+}
+
+::-moz-selection {
+  background-color: rgba(80, 80, 80, .7);
+}
+
+html,
+body,
+#result-container {
+  background-color: #151515;
+  color: #AAAAAA;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="number"],
+.search-container-div {
+  background-color: #303030;
+}
+
+#page-header,
+#page-menu,
+.colored-group {
+  background-color: #222222;
+  color: #D0D0D0;
+}
+
+#search-icon,
+.item-icon {
+  color: #757575;
+}
+
+.page-button {
+  border-color: #252525;
+}
+
+.page-button:hover,
+.setting-option.selected {
+  background-color: #252525;
+}
+
+.page-button:active {
+  background-color: #353535;
+  border-color: #353535;
+}
+
+.pokemon-link:hover,
+.header-button:hover,
+.search-button:hover,
+.nav-link:focus,
+.nav-link:hover,
+.active,
+.menu-hr {
+  background-color: #353535;
+}
+
+.pokemon-link:active,
+.header-button:active,
+.search-button:active,
+.nav-link:active {
+  background-color: #404040;
+}
+
+.tooltip {
+  background-color: #505050;
+}
+
+.border {
+  border-color: #202020 !important;
+}
+
+.pokemon-form-name,
+.description {
+  color: #808080;
+}
+
+#fs-container {
+  background-color: rgba(10, 10, 10, .75);
+}

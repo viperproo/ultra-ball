@@ -1,0 +1,44 @@
+.pokemon-container > * {
+  margin: .5rem;
+}
+
+.pokemon-container {
+	display: -webkit-inline-flex;
+	display: inline-flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  vertical-align: top;
+  margin: 1rem;
+}
+
+.arrow-container {
+  font-family: 'Fontello';
+  font-size: 6rem;
+}
+
+.arrow::after {
+  content: '\e84d';
+}
+
+.evolution-method {
+  width: 23rem;
+}
+
+@media (max-width: 1050px) {
+  
+  .pokemon-container {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .arrow::after {
+    content: '\e84b';
+  }
+  
+}

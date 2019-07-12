@@ -1,0 +1,103 @@
+::selection {
+  background-color: rgba(210, 210, 210, .99);
+}
+
+::-moz-selection {
+  background-color: rgba(210, 210, 210, .99);
+}
+
+::-webkit-input-placeholder {
+  color: #606060;
+}
+
+::-moz-placeholder {
+  color: #606060;
+}
+
+:-ms-input-placeholder {
+  color: #606060;
+}
+
+html,
+body,
+#result-container {
+  background-color: #FFFFFF;
+  color: #808080;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="number"],
+.search-container-div {
+  background-color: #F3F3F3;
+}
+
+#page-header,
+#page-menu,
+.colored-group {
+  background-color: #FFFFFF;
+}
+
+#search-icon,
+.item-icon {
+  color: #959595;
+}
+
+.page-button {
+  border-color: #F0F0F0;
+}
+
+.header-button:hover,
+.search-button:hover,
+.nav-link:focus,
+.nav-link:hover,
+.active,
+.menu-hr,
+.page-button:hover,
+.pokemon-link:hover,
+.setting-option.selected {
+  background-color: #F0F0F0;
+}
+
+.tooltip,
+.header-button:active,
+.search-button:active,
+.nav-link:active,
+.page-button:active,
+.pokemon-link:active,
+.setting-option:active {
+  background-color: #E0E0E0;
+}
+
+.page-button:active {
+  border-color: #E0E0E0;
+}
+
+.border {
+  border-color: #F0F0F0 !important;
+}
+
+.pokemon-form-name,
+.description {
+  color: #A0A0A0;
+}
+
+#fs-container {
+  background-color: rgba(230, 230, 230, .5);
+}
+
+.scrollbar {
+  background-color: rgba(200, 200, 200, .5);
+}
+
+.scrollbar-slider {
+  background-color: #707070;
+}
+
+.scrollbar-slider:hover {
+  background-color: #808080;
+}
+
+.scrollbar-slider:active {
+  background-color: #909090;
+}

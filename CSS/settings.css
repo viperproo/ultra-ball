@@ -1,0 +1,57 @@
+.setting-div {
+  width: 100%;
+  min-width: 20rem;
+  max-width: 60rem;
+  padding: 1rem;
+  height: 100%;
+}
+
+.setting-info-div,
+.setting-status-div {
+  text-align: left;
+}
+
+.setting-name-div {
+  line-height: 3rem;
+  font-size: 1.9rem;
+}
+
+.setting-description-div {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  padding: .5rem .5rem .5rem 0;
+}
+
+.setting-status-div {
+  padding: .5rem 0;
+}
+
+.setting-option {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  max-width: 100%;
+  margin: 0 1rem 1rem 0;
+  border-color: transparent;
+}
+
+.setting-option.selected {
+  cursor: auto;
+}
+
+.checkbox-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1.25rem;
+  font-size: 2rem;
+  width: 2rem;
+  font-family: 'Fontello';
+}
+
+.setting-option > .checkbox-icon::after {
+  content: '\f096';
+}
+
+.setting-option.selected > .checkbox-icon::after {
+  content: '\e84a';
+}
